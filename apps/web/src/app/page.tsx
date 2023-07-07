@@ -1,5 +1,13 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
+
+// import {} from ''
+
+// const adminApi = new AdminApi(
+//     new Configuration({
+//       basePath: "https://ccgawgagwgwac.com",
+//     }),
+// );
 
 export default function Home() {
   return (
@@ -15,7 +23,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +99,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }

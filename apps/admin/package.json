@@ -1,11 +1,14 @@
 {
-  "name": "@shop-mall/admin",
+  "name": "@app/admin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8021",
+    "dev": "NODE_OPTIONS='--inspect' next dev -p 8021",
     "build": "next build",
     "start": "next start -p 8021",
     "lint": "next lint"
+  },
+  "dependencies": {
+    "@shop-mall/http-client": "workspace:^"
   }
 }
