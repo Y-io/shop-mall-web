@@ -1,0 +1,11 @@
+{
+  "name": "@shop-mall/admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8021",
+    "build": "next build",
+    "start": "next start -p 8021",
+    "lint": "next lint"
+  }
+}

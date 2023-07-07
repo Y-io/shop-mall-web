@@ -1,0 +1,11 @@
+{
+  "name": "@shop-mall/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8022",
+    "build": "next build",
+    "start": "next start -p 8022",
+    "lint": "next lint"
+  }
+}
