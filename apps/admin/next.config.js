@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    typedRoutes: true,
-  },
+  transpilePackages: ["@shop-mall/http-client"],
+  // reactStrictMode: true,
+  // swcMinify: true,
+  // compiler: {
+  //   styledComponents: true,
+  // },
 };
 
 module.exports = nextConfig;
